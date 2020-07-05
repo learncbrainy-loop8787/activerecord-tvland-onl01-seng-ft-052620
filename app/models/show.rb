@@ -3,5 +3,5 @@ class Show < ActiveRecord::Base
   has_many :characters
   has_many :actors, through: :characters
   
-   
+   community = self.create(:name => "Community", :day => "Thursday", :season => "Winter")
 end
