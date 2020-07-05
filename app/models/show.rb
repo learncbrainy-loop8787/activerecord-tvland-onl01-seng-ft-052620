@@ -8,3 +8,4 @@ class Show < ActiveRecord::Base
       self.first_name  + " " + last_name 
   end
 end
+end
