@@ -10,7 +10,7 @@ class Actor < ActiveRecord::Base
      character.name + " - " + character.show.name
   end
 end
-def say_that_thing_you_say
+def self.say_that_thing_you_say
   self.catchphrase
 end
 end
