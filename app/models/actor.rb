@@ -10,7 +10,5 @@ class Actor < ActiveRecord::Base
      character.name + " - " + character.show.name
   end
 end
-def say_that_thing_you_say
-  self.name + character
-end
+
 end
