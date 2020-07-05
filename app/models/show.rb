@@ -4,8 +4,8 @@ class Show < ActiveRecord::Base
   has_many :actors, through: :characters
   
   def actors_list
-    self.actors.collect do |name|
-      self.first_name  + " " + last_name 
+    self.actors.collect do |actor|
+      first_name  + " " + last_name 
     end
   end
 end
