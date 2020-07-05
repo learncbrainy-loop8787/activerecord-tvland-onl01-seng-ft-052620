@@ -8,7 +8,4 @@ class Show < ActiveRecord::Base
      actor.first_name  + " " + actor.last_name 
     end
   end
-  def genre 
-    self.genre
-  end 
 end
